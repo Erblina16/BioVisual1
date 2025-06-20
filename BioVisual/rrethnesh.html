@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+     h2{
+     padding: 120px;
+     font-size: 3rem;
+     font-weight: 800;
+     font-family: 'Times New Roman', Times, serif;
+        
+    }
+
+    p{
+        font-weight: 800;
+     font-family: 'Times New Roman', Times, serif;
+    }
+    
+    footer {
+     background-color: #111;
+     color: white;
+     text-align: center;
+     padding: 20px;
+     width: 100%;
+    }
+</style>
+</head>
+<body>
+<!--Navbari-->    
+<nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">BioVisual</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rrethnesh.html">Rreth Nesh</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontakti.html">Kontakti</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>    
+
+         <section id="home" style="background-image: url('adn.jpg'); background-size: cover; 
+background-position: center; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; position: relative;">
+
+  <div style="background-color: rgba(255, 255, 255, 0.8); padding: 30px; border-radius: 15px; 
+  text-align: center; max-width: 600px;">
+
+
+<!-- Rreth Nesh -->
+  <section class="container my-5" id="rrethnesh">
+    <h2 class="text-center">Rreth Nesh</h2>
+    <p class="text-center">Qëllimi ynë është të ndihmojmë nxënësit të kuptojnë më lehtë temat më të rëndësishme të biologjisë përmes ilustrimeve, videove dhe përmbledhjeve të qarta.</p>
+
+    <div class="row text-center mt-4">
+      <div class="col-md-4">
+        <div class="card p-3 tema-card" data-bs-toggle="modal" data-bs-target="#modalQeliza">
+          <h5>Qeliza</h5>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3 tema-card" data-bs-toggle="modal" data-bs-target="#modalSistemet">
+          <h5>Sistemet Trupore</h5>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3 tema-card" data-bs-toggle="modal" data-bs-target="#modalADN">
+          <h5>ADN - ARN</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal: Qeliza -->
+  <div class="modal fade" id="modalQeliza" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Temat për Qelizën</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Struktura e qelizës</li>
+            <li>Organela dhe funksionet</li>
+            <li>Dallimi mes qelizës bimore dhe shtazore</li>
+            <li>Mitoza dhe Mejoza</li>
+            <li>Transporti përmes membranës</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Sistemet Trupore -->
+  <div class="modal fade" id="modalSistemet" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Sistemet Trupore</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Sistemi tretës</li>
+            <li>Sistemi qarkullues</li>
+            <li>Sistemi nervor</li>
+            <li>Sistemi muskulor</li>
+            <li>Sistemi skeletor</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: ADN - ARN -->
+  <div class="modal fade" id="modalADN" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">ADN & ARN</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Struktura e ADN-së</li>
+            <li>Transkriptimi dhe përkthimi</li>
+            <li>Dallimet mes ADN dhe ARN</li>
+            <li>Mutacionet</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+<div style="background-color: #e6f5ea; padding: 20px; border-left: 5px solid #3a6e3a; border-radius: 10px; font-size: 1.1rem; margin-top: 30px;">
+  <p>
+    Biologjia nuk është vetëm një shkencë  është një rrugëtim për të kuptuar 
+    jetën në të gjitha format e saj. Në këtë faqe, ne përpiqemi ta bëjmë këtë rrugëtim më të thjeshtë, 
+    më të kuptueshëm dhe më të dashur për çdo nxënës. Çdo temë, çdo ilustrim dhe çdo video është zgjedhur me kujdes 
+    për të ndihmuar që dijet të mos jenë thjesht informacione, por të bëhen pjesë e mendimit tuaj.
+  </p>
+</div>
+
+<footer class="bg-dark text-white text-center py-4 mt-5">
+  <p>&copy; 2025 Libraria Virtuale e Shkencës. Të gjitha të drejtat e rezervuara.</p>
+</footer>
+
+
+  
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
